@@ -48,7 +48,7 @@ ui <- fluidPage(id="body",
             tags$a(href="https://github.com/moeketsims/webproject", "Click Here to Check my Code on GitHub"),
             tags$br(),
             tags$a(href="mailto:bricoleurmosia@gmail.com", "Drop me an Email Here if you want 
-                   to Collaborate")
+                   to Collaborate in Developing dashboard with R shiny, Python or Machine Learning in General")
         ),
         div(class="footer",
             p("Moeketsi Mosia - Copyright 2021©")

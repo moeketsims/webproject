@@ -20,7 +20,11 @@ ui <- fluidPage(id="body",
         div(class="nav",
               mainPanel(
                 tabsetPanel(type="tabs",
-                            tabPanel("Home"),
+                            tabPanel("Home",
+                                     
+                                     
+                                     
+                                     ),
                             tabPanel("Moodle Analytics"),
                             tabPanel("Student Geo-maping"),
                             tabPanel("Predictive Analytic")
@@ -29,11 +33,26 @@ ui <- fluidPage(id="body",
               )
             ),
         div(class="main",
+            tags$br(),
             h1("Let's shiny with R Shiny."),
-            p("This is about"),
-            tags$a(href="https://github.com/moeketsims/webproject", "Click Here to Check my Code on GitHub")
+            tags$br(),
+            tags$br(),
+            tags$br(),
+            tags$br(),
+            tags$br(),
+            tags$br(),
+            tags$br(),
+            tags$br(),
+      
+            p("I created this Shiny dashboard for my work and I am sharing it for two reasons, (i) showcase what is possible with R progarmming,(ii) to help those starting out with buidling dashbooards in R shiny."),
+            tags$a(href="https://github.com/moeketsims/webproject", "Click Here to Check my Code on GitHub"),
+            tags$br(),
+            tags$a(href="mailto:bricoleurmosia@gmail.com", "Drop me an Email Here if you want 
+                   to Collaborate")
         ),
-        div(class="footer")
+        div(class="footer",
+            p("Moeketsi Mosia - Copyright 2021©")
+            )
     )
   )
   

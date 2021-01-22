@@ -34,7 +34,7 @@ img {
 
 .footer {
     text-align: center;
-    background-color: greenyellow;
+    background-color:  rgba(34, 28, 28, 0.705);
     color: white;
     height: 100px;
     
@@ -48,12 +48,13 @@ h1 {
 
 p {
     font-size: 18px;
-    color: cornsilk;
+    color: white;
     font-family:Arial, Helvetica, sans-serif ;
+    text-align: center;
 }
 
 a {
-    font-size: 18px;
+    font-size: 12px;
     color: cornsilk;
     font-family:Arial, Helvetica, sans-serif ;
 }
@@ -66,9 +67,20 @@ a {
 
   }
   
-  
-  .col-sm-8 {
+
+.col-sm-8 {
     float:none;
   }
+  
+.footer p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
 
+} 
+
+.main a{
+    font-size: 10px;
+    color: white;
+}
 

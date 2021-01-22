@@ -15,7 +15,7 @@ ui <- fluidPage(id="body",
       div(class="main",
           h1("Let's shiny with R Shiny."),
           p("This is about"),
-          tags$a(href="https://github.com/moeketsims/webproject", "Click here to check the code on my GitHub")
+          tags$a(href="https://github.com/moeketsims/webproject", "Click Here to Check my Code on GitHub")
           ),
       div(class="footer")
       )

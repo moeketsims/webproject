@@ -17,7 +17,7 @@ img {
 }
 
 .nav {
-    background: rgba(148, 108, 108, 0.24);
+    background: rgba(148, 108, 108, 0.596);
     height: 40px;
     width: auto;
     text-align: justify;
@@ -73,7 +73,7 @@ a {
   }
   
 .footer p {
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
 
